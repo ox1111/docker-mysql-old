@@ -12,7 +12,7 @@
 ARG ubuntu_version=20.04
 FROM ubuntu:$ubuntu_version
 
-ARG mysql_tarball=https://vettabase.com/old-sw/mysql/4.1/mysql-max-4.1.22-unknown-linux-gnu-x86_64-glibc23.tar.gz
+ARG mysql_tarball=https://ftp.iij.ad.jp/pub/db/mysql/Downloads/MySQL-4.1/mysql-max-4.1.22-unknown-linux-gnu-x86_64-glibc23.tar.gz
 
 RUN  \
     groupadd mysql \
